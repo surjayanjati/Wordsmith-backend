@@ -31,10 +31,7 @@ exports.createContacts = async (req, res) => {
     const emailTransporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
       port: 465,
-      auth: {
-        user: "wordsmithrealty2022@gmail.com",
-        pass: 'hsqxkoxnidxbllek'
-      },
+     
       secure: true
     });
     const body = `
